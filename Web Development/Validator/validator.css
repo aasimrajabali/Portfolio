@@ -1,0 +1,19 @@
+html{
+	font-family: Geneva, sans-serif;
+	background-image: url(background.jpg)
+	}
+body{
+	margin: 1em;
+}
+.form_container{
+	background: grey; 
+	opacity: 0.8;
+	max-width: 350px;
+}
+
+h3 {
+	background: white;
+	opacity: 0.8;
+	max-width: 350px;
+	
+}

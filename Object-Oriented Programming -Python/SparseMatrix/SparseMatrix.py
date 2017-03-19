@@ -2,17 +2,7 @@
 
 #  Description: This program tests the matrix functions for a Sparse Matrix class
 
-#  Student Name: Aasim Rajabali
-
-#  Student UT EID: afr447       
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51730
-
 #  Date Created: April 15, 2015
-
-#  Date Last Modified: April 16, 2015
 
 class Link (object):
   def __init__ (self, row, col, data, next = None):

@@ -2,18 +2,7 @@
 
 #  Description: These problems are exercises for recursion.
 
-#  Student Name: Aasim Rajabali
-
-#  Student UT EID: afr447
-
-#  Course Name: CS 303E
-
-#  Unique Number: 52700
-
 #  Date Created: November 19,2014
-
-#  Date Last Modified: November 19,2014 
-
 
 # Given n of 1 or more, return the factorial of n, 
 # which is n * (n-1) * (n-2) ... 1.

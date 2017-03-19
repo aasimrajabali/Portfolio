@@ -1,19 +1,9 @@
 #  File: Benford.py
 
 #  Description: This program creates a frequency distribution of state
-#               populations' starting digits using data from the 2009 Census.              
-
-#  Student Name: Aasim Rajabali
-
-#  Student UT EID: afr447
-
-#  Course Name: CS 303E
-
-#  Unique Number: 52700
+#               populations' starting digits using data from the 2009 Census.    
 
 #  Date Created: November 26,2014
-
-#  Date Last Modified: November 26, 2014 
 
 import string
 def main():

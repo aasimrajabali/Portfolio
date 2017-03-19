@@ -1,0 +1,17 @@
+***DESCRIPTION FILE***
+The game consists of you, the character, trying to grab food while dodging enemies. As
+you grab more food you get bigger, thus making it harder to avoid enemies. Whenever the 
+player gets to 15 points, they win, and if they get touched by an enemy they lose.
+
+The Rules of Play are as follows:
+1. Grab the food to get points; each food is 1 point.
+2. If you touch an enemy, the game is over.
+3. Each time you grab food, you expand.
+4. There are boundaries, so the player cannot move past
+   the canvas limits.
+
+Keyboard Inputs:
+1. Up, Right, Left, and Down arrow keys move the player (4 inputs)
+2. Pressing any key (other than arrow keys) allows the player to stop
+   their momentum.
+3. 'r' to restart the game whenever the player wins/loses.

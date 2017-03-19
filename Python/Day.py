@@ -2,18 +2,12 @@
 #  File: Day.py
 
 #  Description: This program prompts the user to enter a date and prints out the day of the week for that specific date.
+#  Algorithm used: Rev Zeller's Algorithm 
 
 #  Student Name: Aasim Rajabali
 
-#  Student UT EID: afr447
-
-#  Course Name: CS 303E
-
-#  Unique Number: 52700
-
 #  Date Created: September 27, 2014
 
-#  Date Last Modified: September 27, 2014
 def main():
     #Prompt user to enter the year, month, and day
     year= eval(input('Enter year:'))

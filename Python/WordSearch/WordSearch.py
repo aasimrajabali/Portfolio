@@ -3,17 +3,7 @@
 #  Description: Based on a few assumptions about the formatting, will execute a word search for a provided list of words and
 #               write the coordinates of the first letters of the found words in an outfile. 
 
-#  Student Name: Shawn Hu, Aasim Rajabali (Pair programming)
-
-#  Student UT EID: sh42578, afr447
-
-#  Course Name: CS 303E 
-
-#  Unique Number: 52705 (Shawn Hu), 52700 (Aasim Rajabali)
-
 #  Date Created: 24 Nov 2014
-
-#  Date Last Modified: 24 Nov 2014
 
 def restofword(word, grid, row, character):
     #checks to see if there is enough room for the word to avoid future index errors

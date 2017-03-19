@@ -1,0 +1,39 @@
+<html>
+<head>
+<script>
+function available(str) {
+	var taken = "Unavailable";
+    if (str.length == 0) { 
+        document.getElementById("response").innerHTML = "";
+        return;
+    } 
+	else {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                document.getElementById("response").innerHTML = xmlhttp.responseText;
+				var result = document.getElementById("response").textContent;
+				var n = taken.localeCompare(result);
+				
+			}
+        };
+		 
+
+        xmlhttp.open("POST", "reg1.php?q=" + str, true);
+        xmlhttp.send();
+    }
+}
+</script>
+</head>
+<body>
+
+<h1>Registration Form </h1>
+	<form id="regForm" method="post" action="reg2.php">
+		Username: <input type="text" id="username" name="reg_user" onkeyup = "available(this.value)"> <br><br>
+		Password: <input type="password" name="reg_pwd"> <br><br>
+		<input type="submit" value="Submit"> <input type="reset" value="Reset">
+		
+	</form> 
+	<p>Username Availability: <span id="response"></span></p>
+</body>
+</html>

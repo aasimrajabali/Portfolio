@@ -2,21 +2,7 @@
 
 #  Description: This program defines Point, Line, and Circle classes, and uses functions of those classes to determine geometric tests.
 
-#  Student Name: Aasim Rajabali
-
-#  Student UT EID: afr447
-
-#  Partner Name: Shawn Hu
-
-#  Partner UT EID: sh42578
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51730
-
 #  Date Created: February 14, 2015
-
-#  Date Last Modified: February 15, 2015
 
 import math
 

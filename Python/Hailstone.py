@@ -3,17 +3,7 @@
 #  Description: This program runs the Hailstone Sequence to verify any
 #               starting number converges to 1.
 
-#  Student Name: Aasim Rajabali
-
-#  Student UT EID: afr447   
-
-#  Course Name: CS 303E
-
-#  Unique Number: 57200
-
 #  Date Created: October 10, 2014
-
-#  Date Last Modified: October 10, 2014
 
 def main():
     #Prompt user to enter two range values, with start being the lowest value

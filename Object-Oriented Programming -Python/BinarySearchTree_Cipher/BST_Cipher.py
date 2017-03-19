@@ -4,21 +4,7 @@
 #  Description: This program encrypts and decrypts strings
 #               using a binary search tree.
 
-#  Student Name: Aasim Rajabali
-
-#  Student UT EID: afr447
-
-#  Partner Name: Shawn Hu
-
-#  Partner UT EID: sh42578
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51730
-
 #  Date Created: April 24, 2015
-
-#  Date Last Modified: April 24, 2015
 
 class Node(object):
    def __init__(self, data):

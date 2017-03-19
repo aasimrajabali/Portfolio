@@ -4,15 +4,7 @@
 
 #  Student Name: Aasim Rajabali
 
-#  Student UT EID: afr447   
-
-#  Course Name: CS 303E
-
-#  Unique Number: 52700
-
 #  Date Created: November 17, 2014
-
-#  Date Last Modified: November 17, 2014
 
 # This function returns the question to start the game
 def Question():

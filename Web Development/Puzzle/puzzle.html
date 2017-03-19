@@ -1,0 +1,55 @@
+<!--Uses HTML/CSS/JavaScript to create a "15-Puzzle Game". The object of the game is to rearrange the numbers so they're in order.-->
+<html>
+<head>
+<title>15 Puzzle</title>
+<link rel = "stylesheet" type="text/css" href="./puzzle.css">
+</head>
+<body>
+	<div id="container">
+	<h1>15 Puzzle</h1>
+	<!--Table with hard-coded solvable board-->
+	<table id="board" border= 1px width="200" height="200">
+		<tr>
+			<td id="b00" onclick="clicked(this)">1</td> 
+			<td id="b01" onclick="clicked(this)">2</td> 
+			<td id="b02" onclick="clicked(this)">3</td> 
+			<td id="b03" onclick="clicked(this)">4</td> </tr> 
+		<tr>
+			<td id="b10" onclick="clicked(this)">5</td> 
+			<td id="b11" onclick="clicked(this)">6</td> 
+			<td id="b12" onclick="clicked(this)">7</td> 
+			<td id="b13" onclick="clicked(this)">8</td> </tr>
+		<tr>
+			<td id="b20" onclick="clicked(this)">9</td> 
+			<td id="b21" onclick="clicked(this)">10</td> 
+			<td id="b22" onclick="clicked(this)">11</td> 
+			<td id="b23" onclick="clicked(this)">12</td> </tr>
+		<tr>
+			<td id="b30" onclick="clicked(this)">13</td> 
+			<td id="b31" onclick="clicked(this)">  </td> 
+			<td id="b32" onclick="clicked(this)">14</td> 
+			<td id="b33" onclick="clicked(this)">15</td> </tr>
+	</table>
+	<script type="text/javascript">
+		var elt = document.getElementById("board");
+		function clicked(i) {
+			var x = parseInt(i.id.substring(2,3)); //gives column of clicked cell
+			var	y = parseInt(i.id.substring(1,2)); //gives row of clicked cell
+			for (var j = 0; j < 4; j++) {
+				for (var k = 0; k < 4; k++) {
+					if (elt.rows[j].cells[k].innerHTML == "  ") {
+						var blank = elt.rows[j].cells[k]
+						var w = parseInt(blank.id.substring(2,3)); //gives column of blank cell 
+						var z = parseInt(blank.id.substring(1,2)); //gives row of blank cell
+						if (Math.abs(x-w) + Math.abs(y-z) == 1) {
+							elt.rows[j].cells[k].innerHTML = elt.rows[y].cells[x].innerHTML; //swap the elements if they are adjacent 
+							elt.rows[y].cells[x].innerHTML = "  ";
+						}
+					}	
+				}
+			}
+		}	
+	</script>
+	</div>
+</body>
+</html>

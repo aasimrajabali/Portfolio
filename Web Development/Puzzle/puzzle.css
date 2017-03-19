@@ -1,0 +1,23 @@
+html {
+	font-family: Verdana;
+	background-image: url(background.jpg);
+	color: white;
+	}
+h1 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+table {
+	table-layout: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid blue;
+}
+td {
+	text-align: center;
+	background: white;
+	color: black;
+	border: 2px solid black;
+	cursor: pointer;
+}

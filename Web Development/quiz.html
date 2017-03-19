@@ -1,0 +1,87 @@
+<html>
+<head>
+	<title>Self-Grading Quiz</title>
+</head>
+<body>
+	<h1 align= center>Astronomy Quiz</h1>
+	<form id="quiz" method="post" action="">
+	
+		<h3>True / False</h3>
+		<p><b>1)</b> According to Kepler the orbit of the earth is a circle with the sun at the center.
+		<input type="radio" name="question1" value="true"> True
+		<input type="radio" name="question1" value="false"> False
+		</p>
+		<p><b>2)</b> Ancient astronomers did consider the heliocentric model 
+		of the solar system but rejected it because they could not detect parallax.
+		<input type="radio" name="question2" value="true"> True
+		<input type="radio" name="question2" value="false"> False
+		</p>
+		
+		<h3>Multiple Choice</h3>
+		<b>3)</b>The total amount of energy that a star emits is directly related to its <br>
+		a) surface gravity and magnetic field <input type="checkbox" name="question3" value="3a" id="3a"> <br>
+		b) radius and temperature <input type="checkbox" name="question3" value="3b" id="3b"> <br>
+		c) pressure and volume <input type="checkbox" name="question3" value="3c" id="3c"> <br>
+		d) location and velocity <input type="checkbox" name="question3" value="3d" id="3d"> <br>
+		<br>
+		<b>4)</b> Stars that live the longest have<br>
+		a) high mass <input type="checkbox" name="question4" value="a" id="4a"> <br>
+		b) high temperature <input type="checkbox" name="question4" value="b" id="4b"> <br>
+		c) lots of hydrogen <input type="checkbox" name="4c" value="c" id="4c"> <br>
+		d) small mass <input type="checkbox" name="4d" value="d" id="4d"> <br>
+		
+		<h3>Fill in the Blank</h3>
+		<b>5)</b> A collection of a hundred billion stars, gas, and dust is called a _____. 
+		<input type="text" name="q5" size="20"> <br>
+		<br>
+		<b>6)</b> The inverse of the Hubble's constant is a measure of the _____ of the universe.
+		<input type="text" name="q6" size="20"> <br>
+		<br>
+		<input type="button" name="grade" value="Grade">
+		<input type="reset" name="clear" value="Clear">
+	</form>
+	
+	<script type="text/javascript">
+		document.getElementById("quiz").grade.onclick = grader;
+		function grader () {
+			var elt = document.getElementById("quiz");
+			var total = 0;
+			
+			if (elt.question1[1].checked) {
+				total = total + 1;
+			}
+			
+			if (elt.question2[0].checked) {
+				total = total + 1;
+			}
+			
+			
+			
+			if (document.getElementById("3b").checked&&!document.getElementById("3a").checked
+			&&!document.getElementById("3c").checked&&!document.getElementById("3d").checked){
+				total += 1;
+			}
+			
+			if (document.getElementById("4d").checked&&!document.getElementById("4a").checked
+			&&!document.getElementById("4b").checked&&!document.getElementById("4c").checked){
+				total +=1;
+			}
+			
+			var q5_ans = elt.q5.value.toLowerCase();
+			if (q5_ans == "galaxy") {
+				total += 1;
+			}
+			
+			var q6_ans = elt.q6.value.toLowerCase();
+			if (q6_ans == "age") {
+				total += 1;
+			}
+			
+			var result = "Your grade is: " + total + " / 6";
+			window.alert(result);
+			
+		}
+	</script>
+			
+</body>
+</html>

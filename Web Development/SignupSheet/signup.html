@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title> Sign-Up Sheet </title>
+	</head>
+	<body>
+		<table align = "center" width = "50%" border = "2">
+			<form action = "signup.php" method = "post">
+				<caption> Sign-Up Sheet </caption> 
+				<tr><th> Time </th><th> Name </th></tr>
+	<?php
+		$myfile = fopen("./signup.txt", "r") or die("Unable to open file!");
+		$fileinfo =  fread($myfile,filesize("./signup.txt"));
+		fclose($myfile);
+		
+		$names = array($_POST["user0"],$_POST["user1"], $_POST["user2"],$_POST["user3"],$_POST["user4"],
+		$_POST["user5"], $_POST["user6"],$_POST["user7"],$_POST["user8"],$_POST["user9"]);
+		$namlen = count($names);
+		
+		$times = array("8:00 am", "9:00 am", "10:00 am", "11:00 am", "12:00 pm", "1:00 pm", "2:00 pm", "3:00 pm", "4:00 pm", "5:00 pm");
+		$timlen = count($times);
+
+	?>
+				<tr><td style="text-align:center;"> 8:00 am </td><td style="text-align:center;"> <input type="text" size="40" name="user0"> </td></tr>
+				<tr><td style="text-align:center;"> 9:00 am </td><td style="text-align:center;"> <input type="text" size="40" name="user1"> </td></tr>
+				<tr><td style="text-align:center;"> 10:00 am </td><td style="text-align:center;"> <input type="text" size="40" name="user2"> </td></tr>
+				<tr><td style="text-align:center;"> 11:00 am </td><td style="text-align:center;"> <input type="text" size="40" name="user3"> </td></tr>
+				<tr><td style="text-align:center;"> 12:00 pm </td><td style="text-align:center;"> <input type="text" size="40" name="user4"> </td></tr>
+				<tr><td style="text-align:center;"> 1:00 pm </td><td style="text-align:center;"> <input type="text" size="40" name="user5"> </td></tr>
+				<tr><td style="text-align:center;"> 2:00 pm </td><td style="text-align:center;"> <input type="text" size="40" name="user6"> </td></tr>
+				<tr><td style="text-align:center;"> 3:00 pm </td><td style="text-align:center;"> <input type="text" size="40" name="user7"> </td></tr>
+				<tr><td style="text-align:center;"> 4:00 pm </td><td style="text-align:center;"> <input type="text" size="40" name="user8"> </td></tr>
+				<tr><td style="text-align:center;"> 5:00 pm </td><td style="text-align:center;"> <input type="text" size="40" name="user9"> </td></tr>
+		</table>
+		<br>
+		<div class="button" style="text-align:center;">
+			<input type="submit" size="20" value="Submit" name="submit" >
+		</div>
+			</form>
+	</body>
+</html>

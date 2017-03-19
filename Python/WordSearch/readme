@@ -1,0 +1,2 @@
+Based on a few assumptions about the formatting, will execute a word search for a provided list of words and
+write the coordinates of the first letters of the found words in an outfile. 

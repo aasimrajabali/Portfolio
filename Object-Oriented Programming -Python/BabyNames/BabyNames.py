@@ -3,17 +3,8 @@
 #  Description: This program allows a user to query a data base \
 #               of the 1000 most popular baby names in the United States
 
-#  Student Name:  Aasim Rajabali
-
-#  Student UT EID:  afr447      
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51730
-
 #  Date Created: March 14, 2015
 
-#  Date Last Modified: March 14, 2015
 import string
 def Option2(nam,nam_dict,rank):
     if nam in nam_dict:

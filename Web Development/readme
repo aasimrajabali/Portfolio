@@ -1,8 +1,12 @@
 This folder contains all Web-Development files. The web-applications used are 
 HTML
 CSS
-JavaScript
+JavaScript (majority of JavaScript work has been integrated into the HTML files)
 PHP
 Jquery
 AJAX
 MySQL
+
+***NOTE FOR PROJECTS CONTAINING PHP, SQL, AJAX***
+
+These files were created on my university server. Because of this, they do not function solely based on running the code and need to be on a server that can run the specific code.

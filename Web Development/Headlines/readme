@@ -1,0 +1,1 @@
+Uses PHP to store Username and Password info, and cookies to determine how long the user has been logged in and whether or not they can visit the headlines once logged in.

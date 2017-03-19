@@ -2,17 +2,7 @@
 
 #  Description: This program compares DNA strings from a file and returns the longest common substring(s) for each pair
 
-#  Student Name: Aasim Rajabali
-
-#  Student UT EID: afr447
-
-#  Course Name: CS 303E
-
-#  Unique Number: 52700
-
 #  Date Created: October 29, 2014
-
-#  Date Last Modified: October 29,2014
 
 import string
 #This function returns the longest common substring(s) for each pair

@@ -1,0 +1,1 @@
+This file contains a water simulator. When you move your hand across a body of water, say a pool, then it creates a ripple effect. This project aims to recreate that, having the mouse act as a hand.

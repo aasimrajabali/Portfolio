@@ -1,0 +1,1 @@
+Uses SQL to create and keep track of a student database. The options regarding the database are viewing, updating, inserting, and deleting student records (name, GPA, major, etc.)

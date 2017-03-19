@@ -1,0 +1,32 @@
+body {
+	background-image:url(background.jpg);
+	font-family: Verdana;
+	font-size: 12px;
+	color: white;
+	
+}
+#container {
+	width: 550px;
+	margin: auto;
+	
+}
+#boxcontainer {
+	z-index: 1;
+	margin: auto;
+}
+
+#boxcontainer div{
+	width: 100px;
+	border: 2px solid black;
+	height: 100px;
+	float: left;
+	padding: 2px;
+	margin: 2px;
+	cursor: pointer;
+	z-index: 2;
+	background: white;
+}
+#boxcontainer div img {
+	z-index: 3;
+	display: none;
+}

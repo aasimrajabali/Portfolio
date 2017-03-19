@@ -2,21 +2,7 @@
 
 #  Description: Given a plain text, this program runs a substitution cipher as well as a vigenere cipher in order to encode and decode messages.
 
-#  Student Name: Aasim Rajabali
-
-#  Student UT EID: afr447
-
-#  Partner Name: Shawn Hu
-
-#  Partner UT EID: sh42578
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51730
-
 #  Date Created: February 6th, 2015
-
-#  Date Last Modified: February 7th, 2015
 
 #This function takes a plain text and substitutes a cipher text to form an encoded string
 def substitution_encode (line):

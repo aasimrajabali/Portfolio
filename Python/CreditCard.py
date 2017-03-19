@@ -3,17 +3,7 @@
 #  Description: This program tests whether a 15 or 16-digit credit card is valid
 #               through Luhn's Algoritm, and then determines the type of credit card
 
-#  Student Name: Aasim Rajabali
-
-#  Student UT EID: afr447   
-
-#  Course Name: CS 303E
-
-#  Unique Number: 52700
-
 #  Date Created: October 20, 2014
-
-#  Date Last Modified: October 20, 2014
 
 #This function checks if a credit card number is valid
 

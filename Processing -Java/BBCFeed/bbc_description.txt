@@ -1,0 +1,9 @@
+
+The RSS feed is from BBC news and covers US events.
+This is a live feed, so the header contains BBC News along with a constantly changing date to 
+show when the RSS was last modified. The previous and next buttons to move across to different feeds
+are used through keyboard interactivity: by pressing the left or right arrow keys the user can switch between
+feeds. The headings are color coded depending on the type of heading it is (ie. if the article includes a 
+video the link is blue, otherwise the link is green). When hovering over each title with the mouse, the item's
+description appears. Also, when clicking the item title, the link to the article's url opens up a web browser containing
+that article.

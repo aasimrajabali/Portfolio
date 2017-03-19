@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">  
+  <channel> 
+    <title>BBC News - Home</title>  
+    <link>http://www.bbc.co.uk/news/front_page</link>  
+    <description>The latest stories from the Home section of the BBC News web site.</description>  
+    <language>en-gb</language>  
+    <lastBuildDate>Fri, 15 Apr 2016 00:37:15 GMT</lastBuildDate>  
+    <copyright>Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.</copyright>  
+    <image> 
+      <url>http://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>  
+      <title>BBC News - Home</title>  
+      <link>http://www.bbc.co.uk/news/front_page</link>  
+      <width>120</width>  
+      <height>60</height> 
+    </image>  
+    <ttl>15</ttl>  
+    <atom:link href="http://feeds.bbci.co.uk/news/rss.xml" rel="self" type="application/rss+xml"/>  
+    <item> 
+      <title>Kerry: 'We could have shot down jets'</title>  
+      <description>The US would have been within its rights to shoot down Russian jets that flew close to a warship in the Baltic Sea, Secretary of State John Kerry says.</description>  
+      <link>http://www.bbc.co.uk/news/world-us-canada-36050689#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-us-canada-36050689</guid>  
+      <pubDate>Thu, 14 Apr 2016 21:01:06 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Democrats to debate as tensions rise</title>  
+      <description>Democratic presidential hopefuls Hillary Clinton and Bernie Sanders will face off in their final debate before the crucial New York primary.</description>  
+      <link>http://www.bbc.co.uk/news/election-us-2016-36050658#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/election-us-2016-36050658</guid>  
+      <pubDate>Thu, 14 Apr 2016 20:54:12 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Butterfly migration mystery solved</title>  
+      <description>Scientists solve the navigation mystery of one of nature's most famous journeys - the migration of monarch butterflies from Canada to Mexico.</description>  
+      <link>http://www.bbc.co.uk/news/science-environment-36046746#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/science-environment-36046746</guid>  
+      <pubDate>Thu, 14 Apr 2016 21:23:31 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://c.files.bbci.co.uk/854C/production/_89242143_89242037.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://c.files.bbci.co.uk/AC5C/production/_89242144_89242037.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Chimp rescued from power line</title>  
+      <description>A chimp that escaped from the Yagiyama Zoological Park in Sendai, Japan, is recovering after falling from a power line.</description>  
+      <link>http://www.bbc.co.uk/news/world-asia-36043458#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-asia-36043458</guid>  
+      <pubDate>Thu, 14 Apr 2016 13:11:35 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://c.files.bbci.co.uk/18603/production/_89234899_89233070.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://c.files.bbci.co.uk/03AF/production/_89234900_89233070.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Putin answers to public in annual Q&amp;A</title>  
+      <description>Vladimir Putin answers questions from the public during a four hour live phone-in programme.</description>  
+      <link>http://www.bbc.co.uk/news/world-europe-36048392#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-36048392</guid>  
+      <pubDate>Thu, 14 Apr 2016 22:38:48 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>VIDEO: 'Bracing for a tidal wave of migrants'</title>  
+      <description>Libya has warned that it does not have the resources to control the flow of people heading to Europe. It has accused the EU of failing to deliver on promises of help.</description>  
+      <link>http://www.bbc.co.uk/news/world-36050234#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-36050234</guid>  
+      <pubDate>Thu, 14 Apr 2016 22:31:44 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>VIDEO: 'I lost 16 members of my family'</title>  
+      <description>Asya Hekmat, an Iraqi Kurd migrant, lost 16 members of her family when the boat that took them from Turkey to Greece capsized.</description>  
+      <link>http://www.bbc.co.uk/news/world-europe-36048663#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-36048663</guid>  
+      <pubDate>Thu, 14 Apr 2016 23:29:52 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://c.files.bbci.co.uk/125B9/production/_89239157_89239150.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://c.files.bbci.co.uk/14CC9/production/_89239158_89239150.jpg"/> 
+    </item>  
+    <item> 
+      <title>VIDEO: Mother meets baby 12 days after Caesarean birth</title>  
+      <description>An orangutan meets her baby after they were separated immediately after birth.</description>  
+      <link>http://www.bbc.co.uk/news/world-us-canada-36048393#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-us-canada-36048393</guid>  
+      <pubDate>Thu, 14 Apr 2016 22:37:21 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>VIDEO: Daily reality of Ukraine's 'forgotten war'</title>  
+      <description>As fighting continues in eastern Ukraine between the army and pro-Russian rebels, the BBC's Tom Burridge looks at life on both sides of the frontline.</description>  
+      <link>http://www.bbc.co.uk/news/world-europe-36046879#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-36046879</guid>  
+      <pubDate>Thu, 14 Apr 2016 23:24:36 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://c.files.bbci.co.uk/8B3B/production/_89234653_89234648.jpg"/>  
+      <media:thumbnail width="144" height="81" url="http://c.files.bbci.co.uk/B24B/production/_89234654_89234648.jpg"/> 
+    </item>  
+    <item> 
+      <title>Deadly quake rocks southern Japan</title>  
+      <description>At least nine people have died and more than 250 are injured after a magnitude 6.4 earthquake jolts southern Japan.</description>  
+      <link>http://www.bbc.co.uk/news/world-asia-36045140#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-asia-36045140</guid>  
+      <pubDate>Fri, 15 Apr 2016 00:03:52 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Charles Manson follower may get parole</title>  
+      <description>Leslie Van Houten, a former follower of Charles Manson, is recommended for parole after spending more than 40 years in prison.</description>  
+      <link>http://www.bbc.co.uk/news/world-us-canada-36050661#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-us-canada-36050661</guid>  
+      <pubDate>Thu, 14 Apr 2016 23:59:34 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Hong Kong teen ‘ran Australia drug ring’</title>  
+      <description>A Hong Kong woman, 19, faces life in prison for allegedly importing crystal meth to Australia via mail.</description>  
+      <link>http://www.bbc.co.uk/news/world-australia-36034772#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-australia-36034772</guid>  
+      <pubDate>Fri, 15 Apr 2016 00:21:50 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Brazil government seeks to block vote</title>  
+      <description>Brazil's government seeks an injunction at the Supreme Court in an effort to prevent an impeachment vote against President Dilma Rousseff.</description>  
+      <link>http://www.bbc.co.uk/news/world-latin-america-36049158#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-latin-america-36049158</guid>  
+      <pubDate>Thu, 14 Apr 2016 18:33:45 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Federal police 'saw Iguala students'</title>  
+      <description>Mexico's human rights commission says two Mexican federal police officers participated in the disappearance of 43 students in Guerrero state in 2014.</description>  
+      <link>http://www.bbc.co.uk/news/world-latin-america-36049348#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-latin-america-36049348</guid>  
+      <pubDate>Thu, 14 Apr 2016 22:43:59 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Mass police raid on German mega-brothel</title>  
+      <description>Nine hundred police officers take part in a raid on one of Germany's biggest brothels in Berlin, making six arrests over alleged human trafficking and tax fraud.</description>  
+      <link>http://www.bbc.co.uk/news/world-europe-36043834#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-36043834</guid>  
+      <pubDate>Thu, 14 Apr 2016 14:21:43 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Iraq forces 'recapture IS-held Hit'</title>  
+      <description>Iraqi troops have recaptured the strategically important western town of Hit from Islamic State militants, after weeks of fighting, officials say.</description>  
+      <link>http://www.bbc.co.uk/news/world-middle-east-36049780#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-middle-east-36049780</guid>  
+      <pubDate>Thu, 14 Apr 2016 18:50:00 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Sandy Hook lawsuit can move forward</title>  
+      <description>The families of the Sandy Hook shooting victims win a small legal victory after a judge rules their lawsuit against a gun maker can continue.</description>  
+      <link>http://www.bbc.co.uk/news/world-us-canada-36050659#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-us-canada-36050659</guid>  
+      <pubDate>Thu, 14 Apr 2016 22:19:40 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>No charges for Trump campaign manager</title>  
+      <description>A Florida prosecutor will not charge Republican front-runner Donald Trump's campaign manager for alleged battery against a reporter at a campaign event.</description>  
+      <link>http://www.bbc.co.uk/news/election-us-2016-36047744#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/election-us-2016-36047744</guid>  
+      <pubDate>Thu, 14 Apr 2016 19:54:05 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Canada moves to rule out suicide tourism</title>  
+      <description>A long awaited assisted-suicide bill has been put before Canada's Parliament that protects doctors, but with a proviso that prevents foreigners coming to die.</description>  
+      <link>http://www.bbc.co.uk/news/world-us-canada-36047743#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-us-canada-36047743</guid>  
+      <pubDate>Thu, 14 Apr 2016 16:22:41 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Can orcas ever be healthy in captivity?</title>  
+      <description>Can killer whales ever be healthy in captivity?</description>  
+      <link>http://www.bbc.co.uk/news/magazine-36045576#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/magazine-36045576</guid>  
+      <pubDate>Thu, 14 Apr 2016 23:00:37 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>VIDEO: The marble racing craze that's captivated the internet</title>  
+      <description>Meet the man whose intricate marble racetracks have captivated the internet</description>  
+      <link>http://www.bbc.co.uk/news/magazine-36040254#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/magazine-36040254</guid>  
+      <pubDate>Thu, 14 Apr 2016 23:22:51 GMT</pubDate>  
+      <media:thumbnail width="66" height="49" url="http://c.files.bbci.co.uk/15A26/production/_89241688_marbles.png"/>  
+      <media:thumbnail width="144" height="81" url="http://c.files.bbci.co.uk/18136/production/_89241689_marbles.png"/> 
+    </item>  
+    <item> 
+      <title>Gay Chinese pledge not to enter into sham marriages</title>  
+      <description>China's gay community's online pledge</description>  
+      <link>http://www.bbc.co.uk/news/world-asia-china-36042000#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-asia-china-36042000</guid>  
+      <pubDate>Thu, 14 Apr 2016 20:05:32 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Quiz of the week's news</title>  
+      <description>Why didn't Prince George get taken to India by his parents?</description>  
+      <link>http://www.bbc.co.uk/news/magazine-36046319#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/magazine-36046319</guid>  
+      <pubDate>Thu, 14 Apr 2016 23:14:14 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>The village losing its livelihood after Kerala temple tragedy</title>  
+      <description>The village losing its livelihood after Kerala temple tragedy</description>  
+      <link>http://www.bbc.co.uk/news/world-asia-india-36032491#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-asia-india-36032491</guid>  
+      <pubDate>Thu, 14 Apr 2016 23:03:25 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Daily reality of Ukraine's 'frozen war'</title>  
+      <description>Life on the front line in east Ukraine</description>  
+      <link>http://www.bbc.co.uk/news/world-europe-35990401#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/world-europe-35990401</guid>  
+      <pubDate>Thu, 14 Apr 2016 23:24:46 GMT</pubDate> 
+    </item>  
+    <item> 
+      <title>Why is America pulling down the projects?</title>  
+      <description>Why is America pulling down the projects?</description>  
+      <link>http://www.bbc.co.uk/news/magazine-35913577#sa-ns_mchannel=rss&amp;ns_source=PublicRSS20-sa</link>  
+      <guid isPermaLink="false">http://www.bbc.co.uk/news/magazine-35913577</guid>  
+      <pubDate>Wed, 13 Apr 2016 23:05:54 GMT</pubDate> 
+    </item> 
+  </channel> 
+</rss>

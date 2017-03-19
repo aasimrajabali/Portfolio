@@ -5,15 +5,7 @@
 
 # Student Name: Aasim Rajabali
 
-# Student UT EID: afr447
-
-# Course Name: CS 303E
-
-# Unique Number: 57200
-
 # Date Created: October 5th, 2014
-
-# Date Last Modified: October 5th, 2014
 
 import random
 

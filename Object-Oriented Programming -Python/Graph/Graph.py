@@ -2,21 +2,7 @@
 
 #  Description: Completes some methods to traverse a graph of given properties.
 
-#  Student Name: Shawn Hu
-
-#  Student UT EID: sh42578
-
-#  Partner Name: Aasim Rajabali
-
-#  Partner UT EID: afr447
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51730
-
 #  Date Created: 1 May 2015
-
-#  Date Last Modified: 6 May 2015
 
 import copy
 

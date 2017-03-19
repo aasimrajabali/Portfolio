@@ -1,0 +1,95 @@
+<html>
+	<head>
+		<title>Tic-Tac-Toe Game</title>
+		<link rel="stylesheet" type="text/css" href="./tictactoe.css">
+	</head>
+	<body>
+		<h1 id="title">Tic-Tac-Toe</h1>
+		<table id="board" border = 1px width= 25% height=25%>
+			<tr>
+				<td id="b00"><button onclick="clicked(this)" id="b00"> </button></td>
+				<td id="b01"><button onclick="clicked(this)" id="b01"> </button></td>
+				<td id="b02"><button onclick="clicked(this)" id="b02"> </button></td>
+			</tr>
+			<tr>
+				<td id="b00"><button onclick="clicked(this)" id="b10"> </button></td>
+				<td id="b01"><button onclick="clicked(this)" id="b11"> </button></td>
+				<td id="b02"><button onclick="clicked(this)" id="b12"> </button></td>
+			</tr>
+			<tr>
+				<td id="b00"><button onclick="clicked(this)" id="b20"> </button></td>
+				<td id="b01"><button onclick="clicked(this)" id="b21"> </button></td>
+				<td id="b02"><button onclick="clicked(this)" id="b22"> </button></td>
+			</tr>
+		</table>
+		<script type="text/javascript">
+			var elt = document.getElementById("board");
+			var count = 0; //keeps track of even and odd clicks
+			
+			function isEven(num) {
+				return num % 2 == 0; //will return true if even 
+			}
+			
+			function clicked(i) {
+				if (isEven(count) && (i.textContent == " ")) { //if the count is even it returns an X onto the button
+					i.textContent = "X";
+					count += 1;
+				}
+				if (!(isEven(count)) && i.textContent == " ") { //if the count is odd it returns an O onto the button
+					i.textContent = "O";
+					count += 1
+				}
+				//In this long area of if-statements, i figured it would be more efficient to create a loop to account for winnings, but 
+				//just to be sure i did it manually.
+				
+				//if the winner wins in the first row
+				if (!(elt.rows[0].cells[0].textContent == " ") &&(elt.rows[0].cells[0].textContent == elt.rows[0].cells[1].textContent && 
+					elt.rows[0].cells[0].textContent == elt.rows[0].cells[2].textContent)){
+						window.alert(elt.rows[0].cells[0].textContent+" has won.");
+				}
+				
+				//if the winner wins in the first column
+				if (!(elt.rows[0].cells[0].textContent == " ") &&(elt.rows[0].cells[0].textContent == elt.rows[1].cells[0].textContent && 
+					elt.rows[0].cells[0].textContent == elt.rows[2].cells[0].textContent)){
+						window.alert(elt.rows[0].cells[0].textContent+" has won.");
+				}
+				
+				//if the winner wins in the second row
+				if (!(elt.rows[1].cells[0].textContent == " ") &&(elt.rows[1].cells[0].textContent == elt.rows[1].cells[1].textContent && 
+					elt.rows[1].cells[0].textContent == elt.rows[1].cells[2].textContent)){
+						window.alert(elt.rows[1].cells[0].textContent+" has won.");
+				}
+				
+				//if the winner wins diagonally "\"
+				if (!(elt.rows[0].cells[0].textContent == " ") &&(elt.rows[0].cells[0].textContent == elt.rows[1].cells[1].textContent && 
+					elt.rows[0].cells[0].textContent == elt.rows[2].cells[2].textContent)){
+						window.alert(elt.rows[0].cells[0].textContent+" has won.");
+				}
+				
+				//if the winner wins in the third row
+				if (!(elt.rows[2].cells[0].textContent == " ") &&(elt.rows[2].cells[0].textContent == elt.rows[2].cells[1].textContent && 
+					elt.rows[2].cells[0].textContent == elt.rows[2].cells[2].textContent)){
+						window.alert(elt.rows[2].cells[0].textContent+" has won.");
+				}
+				
+				//if the winner wins diagonally "/"
+				if (!(elt.rows[2].cells[0].textContent == " ") &&(elt.rows[2].cells[0].textContent == elt.rows[1].cells[1].textContent && 
+					elt.rows[2].cells[0].textContent == elt.rows[0].cells[2].textContent)){
+						window.alert(elt.rows[2].cells[0].textContent+" has won.");
+				}
+				
+				//if the winner wins in the second column
+				if (!(elt.rows[0].cells[1].textContent == " ") &&(elt.rows[0].cells[1].textContent == elt.rows[1].cells[1].textContent && 
+					elt.rows[0].cells[1].textContent == elt.rows[2].cells[1].textContent)){
+						window.alert(elt.rows[0].cells[1].textContent+" has won.");
+				}
+				
+				//if the winner wins in the third column
+				if (!(elt.rows[0].cells[2].textContent == " ") &&(elt.rows[0].cells[2].textContent == elt.rows[1].cells[2].textContent && 
+					elt.rows[0].cells[2].textContent == elt.rows[2].cells[2].textContent)){
+						window.alert(elt.rows[0].cells[2].textContent+" has won.");
+				}
+			}
+		</script>
+	</body>
+</html>

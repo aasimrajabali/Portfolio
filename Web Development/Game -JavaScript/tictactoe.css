@@ -1,0 +1,30 @@
+html {
+	font-family: Verdana;
+	background-image:url(background.jpg);
+	color: white;
+}
+button { 
+	width: 2em; 
+	height: 2em;
+}
+td { 
+	text-align: center;
+	border-color: white;
+	background: brown;
+	border: 2px solid black;
+}
+#board{
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid black;
+}
+#title {
+	align: center;
+	text-align: center;
+	background-color: brown;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	border-radius: 5px;
+}

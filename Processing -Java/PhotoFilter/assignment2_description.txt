@@ -1,0 +1,12 @@
+***PROJECT DESCRIPTION***
+
+This project uses grayscale, high contrast, gaussian blur, and edge detection 
+to manipulate an image. When using high contrast, I tried using multiple thresholds to come up with the best look, and 
+was a bit worried that the gaussian blur wasn't blurry enough or the edge detection wasn't bright, but I think that had 
+to do with the matrices values given.
+
+I wanted to do filters you would normally see on cameras or phones. The sepia tone included a formula that I didn't write (from OpenProcessing), and the results turned out to be a clear sepia tone. The invert tone 
+took some research, but once I figured it out it the results were great. The solarize tone didn't turn out the way I wanted it to, 
+but I think it's because the image was kind of dark to begin with, so you would see alot of white when solarized. 
+Lastly, the threshold was quick since I gained alot of knowledge on pixels through the assignment, 
+and it reminded me of the ink blots you would see psychological therapists use. 

@@ -1,0 +1,15 @@
+This folder contains machine learning files:
+
+machinelearning_1.py: This file uses the iris flower dataset and is intended for practice of machine learning algorithms. This file loads the dataset from a url, prints its shape, head, descriptions, and class distribution.
+
+In addition, the file will run multiple plots and graphs (Box and whisker, Histogram, Scatterplot)
+
+Uses the following algorithms for comparison and predictions: 
+
+Logistic Regression
+Linear Discriminant Analysis (LDA)
+K-Neighbors Classifier
+Classification and Regression Tree (CART)
+Gaussian Naive Bayes (NB)
+Support Vector Machine (SVM)
+

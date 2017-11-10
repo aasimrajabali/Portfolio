@@ -1,0 +1,101 @@
+<html>
+<head>
+	<title> Log In </title>
+	<link rel= "stylesheet" type= "text/css" href="./login.css">
+</head>
+
+<body>
+	<h3> Log In </h3>
+	<div class="form_container">
+
+	<form id = "regForm" action = "" method = "POST" >
+		<table border = "0">
+			<tr>
+				<td> Username: </td>
+				<td> <input type = "text" name = "user" size = "20" /> </td>
+			</tr>
+			<tr>
+				<td> Password: </td>
+				<td> <input type = "password" name = "password" size = "20" /> </td>
+			</tr>
+			<tr>
+			<tr>
+				<td> Confirm Password:</td>
+				<td> <input type = "password" name = "repeat" size = "20" /> </td>
+			</tr>
+			<tr>
+				<td> <input type = "button" name = "reg"  value = "Log In" /> </td>
+				<td> <input type = "reset" value = "Clear" /> </td>
+			</tr>
+		</table>
+	</form>
+	</div>
+	<script type="text/javascript">
+	document.getElementById("regForm").reg.onclick = validate;
+	function validate () {
+		var elt = document.getElementById("regForm");
+		var let_1 = elt.user.value[0];
+
+		if (elt.user.value ==  "") {
+			elt.user.style.background= "#FFCCCC";
+			window.alert ("Invalid Input: Username cannot be blank.");
+			return false;
+		}
+
+		var re = /^[a-zA-Z]/;
+		if (!re.test(let_1)) {
+			elt.user.style.background= "#FFCCCC";
+			window.alert("Invalid Input: Username must begin with a letter.");
+			return false;
+		}	
+
+		var re2 = /^[a-z0-9]+$/i;
+		if (!re2.test(elt.user.value)) {
+			elt.user.style.background= "#FFCCCC";
+			window.alert("Invalid Input: Username must only contain letters and digits.");
+			return false;
+		}
+
+		if (elt.password.value == "" || elt.repeat.value == "") {
+			elt.password.style.background= "#FFCCCC";
+			elt.repeat.style.background= "#FFCCCC";
+			window.alert("Invalid Input: Your passwords cannot be blank.");
+			return false;
+		}
+
+		if (!(elt.password.value == elt.repeat.value)) {
+			elt.password.style.background= "#FFCCCC";
+			elt.repeat.style.background= "#FFCCCC";
+			window.alert("Invalid Input: Your passwords do not match. Please try again.")
+			return false;
+		}
+
+		if (elt.password.value.length < 6 || elt.password.value.length > 10) {
+			elt.password.style.background= "#FFCCCC";
+			elt.repeat.style.background= "#FFCCCC";
+			window.alert("Invalid Input: Password must be between 6 and 10 characters.");
+			return false;
+		}
+ 		
+		var re3 = /^\w+$/;
+		if (!re3.test(elt.password.value)) {
+			elt.password.style.background= "#FFCCCC";
+                        elt.repeat.style.background= "#FFCCCC";
+                        window.alert("Invalid Input: Password must contain only letters, digits, and underscores.");
+                        return false;
+		}
+
+		var re4 = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).+$/;
+		if (!re4.test(elt.password.value)) {
+			elt.password.style.background= "#FFCCCC";
+                        elt.repeat.style.background= "#FFCCCC";
+                        window.alert("Invalid Input: Password must have at least one lower case letter, at least one upper case letter, and at least one digit.");
+                        return false;
+		}
+				
+		window.alert("Passed Validation.");
+		return true;	
+	}
+	</script>
+</body>
+</html>

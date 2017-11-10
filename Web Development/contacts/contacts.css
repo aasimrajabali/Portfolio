@@ -1,0 +1,15 @@
+html {
+	background-image:url("background.png"); 
+	font-family: Trebuchet MS;
+	text-align:center;
+}
+.contact1 {
+	background: white;
+	max-width: 500px;
+	opacity: 0.75;
+}
+
+h1 { background: white;
+	max-width: 500px;
+	opacity: 0.75;
+}

@@ -1,12 +1,11 @@
 # Object Oriented Programming - Python
-All current OOP projects were made from coursework related projects in an Elements of Software Design from the University of Texas at Austin. 
+All current OOP projects were made from coursework related projects in an Elements of Software Design from the University of Texas at Austin. The projects during this course focused on creating binary search trees, geometric/sparse matrix classes, graph traversal, and using turtle graphics to create abstract art.
 
-### Baby Names
-This program allows the user to query a database of the 1000 most popular names in the United States. It uses a dictionary and list to store rank values for each name, and then assigns the rankings to be values and the names to be keys.
+# Processing - Java
+[Processing](https://processing.org/) was the main focus in my Graphics Design course at the University of Texas at Austin. The scripting is in Java, and the main projects are a live newsfeed, snake game, photo filter, and a water simulation project.
 
-The program gives two options to enter in a menu, 1 to search for a name and 2 to quit the program. Entering 1 will then allow you to enter a name, and the program will return the most popular decade for that name.
+# Python
+Focuses on algorithm development and implementation through many different cases. This folder contains many files where I would create small programs and design algorithms to solve problems such as identifying a credit card by its number or solving a word search puzzle. 
 
-### Binary Search Tree - Cipher
-This program takes an input file (containing strings) and will do one of two options: It can encrypt the string given that it contains only letters, or it will decrypt the string and reveal its hidden message.
-
-### Binary Search Tree - Test
+# Web Development
+Each project contains a website that implements HTML, CSS, and JavaScript to either test a problem (JavaScript Password Validator using regular expressions) or make a puzzle (Memory Game using Jquery). Other more complex projects contain PHP to help store cookies and user information (Mock Website).

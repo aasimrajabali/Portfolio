@@ -69,23 +69,14 @@ def main():
     print('Options:')
     
     #create a loop in which you display the menu choices
-    for i in range(8):
+    for i in range(3):
         j = str(i)
         begin = str('Enter ' + j + ' to ')
         if i==1:
             print(begin + 'search for names.')
         elif i==2:
             print(begin + 'display data for one name.')
-        elif i==3:
-            print(begin + 'all names that appear in only one decade.')
-        elif i==4:
-            print(begin + 'all names that appear in all decades.')
-        elif i==5:
-            print(begin + 'all names that are more popular in every decade.')
-        elif i==6:
-            print(begin + 'all names that are less popular in every decade.')
-        elif i==7:
-            print(begin + 'quit.')
+        
             
     print()
     num = input('Enter choice: ')
@@ -94,10 +85,5 @@ def main():
         Option1(nam,nam_dict,rank)
     elif num == '2':
         nam = input('Enter a name: ')
-        Option2(nam,nam_dict,rank)
-        
-        
-    
-   
-    
+        Option2(nam,nam_dict,rank)    
 main()

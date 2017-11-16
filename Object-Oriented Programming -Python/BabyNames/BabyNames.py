@@ -75,7 +75,7 @@ def main():
         if i==1:
             print(begin + 'search for names.')
         elif i==2:
-            print(begin + 'display data for one name.')
+            print(begin + 'quit.')
         
             
     print()
@@ -84,6 +84,5 @@ def main():
         nam = input('Enter a name: ')
         Option1(nam,nam_dict,rank)
     elif num == '2':
-        nam = input('Enter a name: ')
-        Option2(nam,nam_dict,rank)    
+        return  
 main()
